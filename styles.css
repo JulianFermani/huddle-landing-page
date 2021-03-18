@@ -1,0 +1,73 @@
+
+
+.attribution { font-size: 11px; text-align: center; }
+
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body{
+  background-color: hsl(257, 40%, 49%);
+  background-image: url('images/bg-desktop.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.btn{
+  color: #65588e;
+  box-shadow: 7px 9px 23px -10px rgba(0,0,0,0.63) !important;
+  font-size: 15px;
+}
+
+.btn:hover{
+  background-color: hsl(300, 69%, 71%) !important;
+  color: #ffffff;
+  border-color: hsl(300, 69%, 71%);
+}
+
+.fw-bold{
+  font-family: 'Poppins', sans-serif;
+}
+
+.fab{
+  font-size: 13px;
+}
+
+.fab:hover{
+  border-color: hsl(300, 69%, 71%) !important;
+  color: hsl(300, 69%, 71%);
+  cursor: pointer;
+}
+
+.fa-facebook-f{
+  padding-right: 10px !important;
+  padding-left: 10px !important;
+}
+
+@media (max-width: 500px){
+  body{
+    background-image: url("images/bg-mobile.svg");
+  }
+
+  .col-lg-7 img{
+    margin-top: 1.8rem;
+  }
+
+  .btn{
+    padding-left: 4.5rem !important;
+    padding-right: 4.5rem !important;
+  }
+
+  .attribution{
+    margin-top: 10rem;
+  }
+
+  .social-media{
+   text-align: center !important;
+   margin: 0;
+   right: 17%  !important;
+   bottom: 3% !important;
+  }
+}
+/* font-family: 'Open Sans', sans-serif;
+
+font-family: 'Poppins', sans-serif; */
